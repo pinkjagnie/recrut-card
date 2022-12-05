@@ -1,5 +1,7 @@
 import React from "react";
 
+import PromoCode from "./PromoCode";
+
 import { AiOutlineArrowRight } from "react-icons/ai";
 
 import desk from "./img/desk.jpg";
@@ -17,7 +19,8 @@ const Card = () => {
           <h1>Noteworthy technology acquisitions 2021</h1>
           <p>Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
         </div>
-        <button>Read more <AiOutlineArrowRight className={styles.arrow}/></button>
+        <PromoCode />
+        <button className={styles.readMoreButton}>Read more <AiOutlineArrowRight className={styles.arrow}/></button>
       </div>
     </div>
   )

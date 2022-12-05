@@ -1,0 +1,40 @@
+.promoCodeContainer {
+ position: relative;
+ margin: auto; 
+ text-align: center;
+ padding-bottom: 1.3rem;
+}
+
+.promoBox p:nth-of-type(1) {
+  font-weight: bold;
+  color:brown;
+}
+
+.promoBox {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  margin: auto;
+}
+
+.promoBox button {
+  display: block;
+  padding: 0.5rem;
+  border: 1px solid white;
+  border-radius: 15px;
+  background-color: brown;
+  color: whitesmoke;
+  cursor: pointer;
+  font-size: 11px;
+}
+
+.copiedSuccess {
+  position: fixed;
+  bottom: 20vh;
+  right: 30vw;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: whitesmoke;
+  font-size: 10px;
+}
